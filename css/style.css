@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.desktop{
+    display: none;
+}
+.nav{
+    background-color: #F0A83E;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav>i{
+    color: white;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1.3rem;
+    display: inline;
+}
+.front{
+    color: #3C2313;
+}
+.catDog{
+    color: white;
+}
+div.logo>img{
+    height: 15px;
+}
+div.nav>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    background-image: url(/home/eldoc/petshop/img/Full.png);
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 10px;
+}
+.banner>h1{
+    background-color: aliceblue;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 5px;
+}
+.banner>p{
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    color: black;
+    border-radius: 5px;
+
+}
+.button{
+    background-color: #F0A83E;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+}
+.principal>img{
+    height: 20vh;
+    width: 20vw;
+    margin: 10px;
+}
+.principal>h2{
+    font-size: 2.7rem;
+    color: #3C2313;
+    text-align: center;
+}
+.principal>ul{
+    display: flex;
+    align-items: center;
+    list-style: none ;
+    margin-top: 15px;
+}
+.principal>ul>li{
+    margin: 0px 20px;
+    color: #666666;
+}
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productos>article{
+    width: 80%;
+    margin: 20px 0px;
+    text-align: center;
+}
+.productos>article>img{
+    width: 100%;
+}
+.productos>article>h3{
+    color: #3C2313;
+}
+.productos>article>small{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+
+.form{
+    color: #3C2313;
+    text-align: center;
+}
+.form>h2{
+    font-size: 2.5rem;
+}
+.form>form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px
+}
+.form>form>label>input{
+    margin: 3px;
+    padding: 10px 10px ;
+    border-radius: 25px;
+    width: 80vw;
+    background-color: #3C2313;
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0px;
+}
+.button-form{
+    color: white;
+    font-size: 1rem;
+    padding: 7px 50px; 
+    border-radius: 25px; 
+    border: none;  
+}
+.reset{
+    background-color: #8A8787;
+}
+.send{
+    background-color: #F0A83E;
+}
+.suscripcion{
+    background-color: #F0A83E;
+    color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+}
+.suscripcion>div{
+    display: flex;
+    align-items: center;
+}
+.suscripcion>div>h2{
+    padding-left: 20px;
+    font-size: 1.4rem;
+}
+.button-news{
+    background-color: #3C2313;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.input>form>input{
+    padding: 14px 15px;
+    width: 65vw;
+    border-radius: 25px;
+    border: none;
+    
+}
+
+.footer{
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+.footer>section{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px 30px 15px 50px;
+    
+}
+.grey{
+    color: #666666;
+    font-size: 16px;
+}
+.footer>section>article{
+    display: flex;
+    padding: 10px 0px;
+}
+.footer>section>article>span{
+    font-size: 50px;
+    padding-right: 15px;
+}
+.footer>div>img{
+    height: 17px
+}
+.derechos{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
