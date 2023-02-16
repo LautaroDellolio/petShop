@@ -16,7 +16,6 @@
     color: white;
     font-size: 1.5rem;
 }
-
 h2{
     font-size: 1.3rem;
     display: inline;
@@ -36,7 +35,7 @@ div.nav>i{
     align-items: center;
 }
 .banner{
-    background-image: url(/home/eldoc/Proyectos/petshop/img/Full.png);
+    background-image: url("../img/Full.png");
     background-size: cover;
     height: 70vh;
     display: flex;
@@ -120,9 +119,6 @@ div.nav>i{
     bottom: 10px;
     padding: 5px;
 }
-
-
-
 .form{
     text-align: center;
 }
@@ -140,6 +136,7 @@ div.nav>i{
     border-radius: 25px;
     width: 80%;
     background-color: #3C2313;
+    color: white
 }
 .botones{
     display: flex;
@@ -183,7 +180,6 @@ div.nav>i{
     font-size: 1rem;
     padding: 10px;
     border-radius: 25px;
-    
 }
 .input>form>input{
     padding: 14px 15px;
@@ -192,7 +188,6 @@ div.nav>i{
     border: none;
     
 }
-
 .footer{
     background-color: #3C2313;
     color: white;
@@ -201,15 +196,11 @@ div.nav>i{
     text-align: center;
     padding: 15px;
 }
-.footer>div>h2:last-child {
-    color: black; /* color por defecto para todo el texto del h2 */
-}
 .footer>section{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    padding: 15px 30px 15px 50px;
-    
+    padding: 15px 30px 15px 50px;    
 }
 .grey{
     color: #666666;
@@ -351,4 +342,3 @@ div.nav>i{
         font-size: 25px;
     }
 }
-
